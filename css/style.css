@@ -1,0 +1,565 @@
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Alegreya', serif;
+    }
+
+    p {
+        font-family: 'Alegreya Sans', sans-serif;
+
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    /*****************NAVBAR**************/
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(142, 119, 84, 0.4);
+        color: white;
+
+
+    }
+
+    nav .logo {
+        width: 11%;
+        padding-top: 13px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    nav .navs {
+        width: 40%;
+        font-family: 'Alegreya', serif;
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+    }
+
+    nav .navs ul li a {
+        color: white;
+
+    }
+
+    .navs ul li a:hover {
+        cursor: pointer;
+        color: black;
+    }
+
+    nav .navs ul {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    /**********HOME********************/
+    .home {
+        background-image: url(../photo/picture1.jpg);
+        background-position: center center;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+
+    .home .caption {
+        width: 700px;
+    }
+
+    .home .caption p {
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0px 0px 5px;
+
+    }
+
+    .home .caption h1 {
+        font-size: 76px;
+        font-weight: 400;
+        margin: 0px 0px 18px;
+
+    }
+
+    .home .caption .p2 {
+        font-size: 24px;
+        font-weight: 400;
+        margin: 10px 0px 20px;
+        line-height: 44.64px;
+
+    }
+
+    .home .btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .caption button {
+        margin: 0px 4px 12px;
+        padding: 15px 28px;
+        font-family: 'Alegreya Sans', sans-serif;
+        line-height: 22.1p;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        font-weight: 700;
+    }
+
+    .home .caption .b1 {
+        color: white;
+        background-color: #8e7754;
+        transition-duration: 0.5s;
+    }
+
+    .home .caption .b1:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .home .caption .b2 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        border: 2px solid white;
+        transition-duration: 0.5s;
+    }
+
+    .home .caption .b2:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .home .fixedBox {
+        position: fixed;
+        background-color: white;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 7px;
+    }
+
+    .home .fixedBox a {
+        color: #666;
+        font-size: 22px;
+        padding: 10px 0;
+        transition-duration: 0.5s;
+    }
+
+    .home .fixedBox a:hover {
+        color: RGB(33, 143, 230);
+    }
+
+    /*****************************ABOUT**************************/
+    .about {
+        padding-top: 90px;
+    }
+
+    .about .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+
+    .about .container .photo {
+        width: 40%;
+    }
+
+    .about .container .caption {
+        width: 45%;
+        padding-top: 30px;
+    }
+
+    .about .caption li {
+        display: flex;
+        margin: 0;
+    }
+
+    .about .caption li i {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 21px;
+        color: #8e7754;
+        border: 0.5px solid rgba(142, 119, 84, 0.4);
+        margin: 6px 7px;
+        transition-duration: 0.5s;
+
+    }
+
+    .about .caption li i:hover {
+        color: white;
+        background-color: #8e7754;
+    }
+
+    .about .caption h2 {
+        color: RGB(48, 48, 48);
+        line-height: 44.16px;
+        margin: 0px 0px 25px;
+        font-weight: 400;
+        font-size: 32px;
+
+    }
+
+    .about .caption .p-caption {
+        color: RGB(104, 104, 104);
+        font-size: 17px;
+        line-height: 31.62px;
+        font-weight: 400;
+        text-decoration: none solid rgb(104, 104, 104);
+    }
+
+    .about .container .caption span {
+        font-size: 17px;
+        color: RGB(104, 104, 104);
+        line-height: 31.62px;
+        font-weight: 400;
+    }
+
+    /***************************OUR LOCATION*****************************/
+    .ourLocation {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-color: #F8F8F8;
+        margin-top: 90px;
+    }
+
+    .ourLocation .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: space-around;
+    }
+
+    .ourLocation .container .photo {
+        width: 40%;
+    }
+
+    .ourLocation .container .caption {
+        width: 40%;
+        padding-top: 80px;
+    }
+
+    .ourLocation .container .caption h2 {
+        color: RGB(48, 48, 48);
+        font-size: 32px;
+        line-height: 44.16px;
+        margin: 0px 0px 25px;
+        font-weight: 400;
+        text-decoration: none solid rgb(48, 48, 48);
+
+    }
+
+    .ourLocation .container .caption p {
+        color: RGB(104, 104, 104);
+        font-size: 17px;
+        font-family: 'Alegreya', serif;
+        line-height: 31.62px;
+        margin: 0px 0px 20px;
+        font-weight: 400;
+        text-decoration: none solid rgb(104, 104, 104);
+
+    }
+
+    /*************************  BAKING  ****************************/
+
+
+
+    .baking .title {
+        text-align: center;
+    }
+
+    .baking .container div {
+        width: 28%;
+        text-align: center;
+    }
+
+    .baking .container {
+        margin: auto;
+        width: 85%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .baking .title h3 {
+        color: RGB(48, 48, 48);
+        font-size: 30px;
+        line-height: 41.4px;
+        font-family: 'Alegreya', serif;
+        font-weight: 400;
+
+    }
+
+    .baking .title p {
+        color: RGB(136, 136, 136);
+        font-size: 17px;
+        line-height: 31.62px;
+        font-family: 'Alegreya', serif;
+        font-weight: 400;
+
+
+    }
+
+    .baking .container div h4 {
+        color: #303030;
+        font-size: 22px;
+        line-height: 0.36px;
+        font-weight: 400;
+        text-decoration: none solid rgb(48, 48, 48);
+
+    }
+
+    .baking .container div p {
+        color: RGB(104, 104, 104);
+        font-size: 17px;
+        line-height: 31.62px;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+    /****************************OUR LOCATION *********************/
+    .location {
+        background-color: #F8F8F8;
+        margin-top: 70px;
+    }
+
+    .location .container {
+        width: 90%;
+        display: flex;
+        margin: auto;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        padding-top: 60px;
+    }
+
+    .location .caption {
+        width: 40%;
+    }
+
+    .location .map {
+        width: 40%;
+    }
+
+    .location .container .caption li {
+        display: flex;
+        list-style: none;
+    }
+
+    .location .container .caption li i {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 18px;
+        background-color: #8e7754;
+        color: white;
+        margin: 12px 7px;
+
+        transition-duration: 0.5s;
+    }
+
+    .location .container .caption li i:hover {
+        color: #8e7754;
+        background-color: white;
+        border: #8e7754 1px solid;
+    }
+
+    .location .container .caption h2 {
+        font-size: 32px;
+        line-height: 44.16px;
+        color: RGB(48, 48, 48);
+        margin: 0px 0px 25px;
+        font-weight: 400;
+
+    }
+
+    .location .container .caption p {
+        font-size: 17px;
+        line-height: 31.62px;
+        color: RGB(104, 104, 104);
+        font-weight: 400;
+
+
+    }
+
+    /*************************************FOOTER*****************/
+    hr {
+        width: 250px;
+        text-align: start;
+        color: rgba(150, 150, 150, 0.5);
+        border: rgba(150, 150, 150, 0.2) solid 1px;
+
+    }
+
+    footer .opening-hours li i {
+        padding-right: 8px;
+    }
+
+    footer .special li i {
+        padding-right: 8px;
+    }
+
+    footer .contact-details li {
+        display: flex;
+    }
+
+    footer .contact-details li i {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .contact-details li p {
+        padding-top: 10px;
+    }
+
+    footer {
+
+        background-position: right;
+        background-color: #403D38;
+        color: white;
+        padding-top: 100px;
+    }
+
+    footer .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .aboutUs {
+        width: 20%;
+    }
+
+    footer .special {
+        width: 20%;
+    }
+
+    footer .opening-hours {
+        width: 20%;
+    }
+
+    footer .contact-details {
+        width: 20%;
+    }
+
+    footer h4 {
+        color: RGB(255, 255, 255);
+        font-size: 18px;
+        line-height: 24.84px;
+        margin: 0px 0px 25px;
+        font-weight: 400;
+
+    }
+
+    footer p,
+    span,
+    li {
+        color: RGB(150, 150, 150);
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 16px;
+        line-height: 29.76px;
+        margin: 0px 0px 20px;
+        font-weight: 400;
+
+    }
+
+    /************************FooterBottom**********************/
+    .footerbottom {
+        background-color: #353330;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .footerbottom .caption {
+        width: 350px;
+        color: white;
+    }
+
+    .footerbottom .caption .icons i {
+        padding: 10px;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: #403D38;
+        cursor: pointer;
+        color: #fafafa80;
+        margin: 0 5px;
+        font-size: 20px;
+    }
+
+    .footerbottom .icons .facebook i:hover {
+        background-color: #3B5998;
+        transition-duration: 1s;
+        color: white;
+
+    }
+
+    .footerbottom .icons .google i:hover {
+        background-color: #DD4B39;
+        transition-duration: 1s;
+        color: white;
+
+    }
+
+    .footerbottom .icons .twitter i:hover {
+        background-color: #00ACED;
+        transition-duration: 1s;
+        color: white;
+
+    }
+
+    .footerbottom .icons .linkedin i:hover {
+        background-color: #007BB5;
+        transition-duration: 1s;
+        color: white;
+    }
+
+    .footerbottom .caption p {
+        color: #777777;
+        font-size: 15px;
+        line-height: 27.9px;
+        margin: 10px 0px 20px;
+        font-weight: 400;
+    }

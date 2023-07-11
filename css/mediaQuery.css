@@ -1,0 +1,123 @@
+@media all and (max-width: 600px) , all and (max-width: 768px) {
+
+    /************************nav***************/
+    nav {
+        position: absolute;
+    }
+
+    nav .navs ul {
+        flex-direction: column;
+
+    }
+
+    nav .navs ul li {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    nav .logo {
+        width: 30%;
+        display: flex;
+        align-items: center;
+    }
+
+    nav .navs .logo img {
+        width: 100%;
+    }
+
+    /**************home*******************/
+    .home .btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .btn button {
+        width: 30%;
+
+    }
+
+    .home .p1 {
+        padding-top: 150px;
+    }
+
+    /******************about************************/
+
+    .container {
+        flex-direction: column;
+    }
+
+    .about .container .photo {
+        width: 100%;
+    }
+
+    .about .container .caption {
+        width: 100%;
+    }
+
+    /********************location******************/
+    .ourLocation .container .caption {
+        width: 100%;
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .ourLocation .container .photo {
+        width: 100%;
+
+    }
+/*************************baking***********************/
+.baking .title{
+    width: 100%;
+
+}
+.baking .container .Superior {
+    width: 100%;
+
+}
+.baking .container .Bagels {
+    width: 100%;
+
+}
+.baking .container .Cookies {
+    width: 100%;
+
+}
+/*************************Location***************/
+.Location .container{
+    flex-direction: column;
+}
+.Location .container .caption {
+    width: 100%;
+}
+.Location .container .map{
+    width: 100%;
+}
+.Location .container .map iframe{
+    width: 100%;
+}
+/****************************footer*****************/
+footer .container{
+    flex-direction: column;
+}
+footer .container .special{
+    width: 100%;
+
+}
+footer .container .aboutUs{
+    width: 100%;
+
+}
+footer .container .opening-hours{
+    width: 100%;
+
+}
+footer .container .contact-details{
+    width: 100%;
+
+}
+}
+
